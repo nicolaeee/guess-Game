@@ -10,7 +10,7 @@ class Salut {
 		int numTwo = Integer.parseInt(inputValueTwo);
 		int guessResult = Integer.parseInt(inputValueThree);
 		int rightResult = numOne + numTwo;
-		String showMessageWrong = "Nu este corect, mai incearca odata!";
+		String showMessageWrong = inputName + " nu este corect, mai incearca odata!";
 		String showMessageRightOne = "Bravo " + inputName + " ai reusit, raspunsul tau: ";
 		String showMessageRightTwo = " este absolut corect ";
 
